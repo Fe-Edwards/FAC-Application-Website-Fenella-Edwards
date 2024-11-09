@@ -1,6 +1,4 @@
-fenellas_showcase_website
-
-A showcase website about Fenella Website
+FAC Application Website
 
 Your first project is to build a showcase website. Your website should:
 
