@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+#small-profile-photo {
+    height: 100px;
+    width: 100px;
+}
+
 body {
     background-color: #FFFDFA;
     text-align: center; 
