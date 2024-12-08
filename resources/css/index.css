@@ -21,6 +21,14 @@
     width: 100px;
 }
 
+nav {
+    width: 40%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    padding-right: var(--medium-spacing);
+    margin-bottom: var(--medium-spacing);
+}
 body {
     background-color: #FFFDFA;
     text-align: center; 
