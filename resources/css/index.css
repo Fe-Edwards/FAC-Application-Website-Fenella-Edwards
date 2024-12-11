@@ -88,11 +88,9 @@ footer {
 }
 
 .pongcanvas {
-    position: static;
-    display: inline-block;
-    align: center;
+    position: fixed;
     width: 1200px;
-    height: 450px;
+    height: 400px;
 }
 
 .pongheader {
