@@ -1,7 +1,5 @@
 * {
     box-sizing: content box;
-    margin: 0;
-    padding: 0;
     background-color: #FFFDFA;
 }
 
@@ -26,6 +24,7 @@ li {
     width: 100px;
 }
 
+/*comment out pong html banner for now
 .banner {
     background-color: rgb(231, 94, 174);
     color: black;
@@ -33,18 +32,26 @@ li {
     padding: 10px 0;
     font-family: 'cursive';
     font-size: 18px;
+}*/
+
+.fixed-column {
+    padding: 40px auto;
+    margin: 40px;
+}
+
+.scrollable-column {
+    padding: 40px auto;
+    margin 40px;
 }
 
 h1 {
     color: rgb(0, 0, 0);
-    text-align: center;
     font-size: 18px;
     font-family: 'cursive', serif;
 }
 
 p {
     color: rgb(0, 0, 0);
-    text-align: center;
     font-size: 16px;
     font-family: 'cursive', serif;
 }
