@@ -9,14 +9,19 @@
   <link rel="stylesheet" href="./resources/css/index.css">
 </head>
 
-<body>
-  <header>
-    <a href="./index.html">Home</a>
-    <a href="./projects.html">Projects</a>
-    <a href="./pong.html">Play Pong</a>
-    <p>To play use the W and S keys to move the left paddle and the Up and Down arrow keys to move the right paddle.</p>
+<body class="pongbody">
+  <header class="pongheader">
+    <nav>
+      <ul class="pongul">
+        <li class="pongli"><a href="./index.html">HOMEPAGE</a></li>
+        <li class="pongli"><a href="./projects.html">PROJECTS</a></li>
+        <li class="pongli"><a href="./pong.html">PLAY PONG</a></li>
+      </ul>
+    </nav>
+    <p>To play Pong use the W and S keys to move the left paddle and the Up and Down arrow keys to move the right paddle.</p>
   </header>
-    <canvas id="pongCanvas"></canvas>
+
+    <canvas id="pongCanvas"> class="pongcanvas"</canvas>
     <script>
         const canvas = document.getElementById('pongCanvas');
         const ctx = canvas.getContext('2d');
