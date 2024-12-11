@@ -1,7 +1,21 @@
-body {
+/*::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFDFA;
+    opacity: 0.8;
+    background-image: radial-gradient(url("./resources/images/tileBackImage.jpg"), transparent 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    z-index: -1;
+}*/
+
+before {
     background-color: #FFFDFA;
 }
-
 header {
     margin: 20px;
     padding: 20px 20px 20px 800px;
@@ -32,16 +46,6 @@ li.header {
     height: 100px;
     width: 100px;
 }
-
-/*comment out pong html banner for now
-.banner {
-    background-color: rgb(231, 94, 174);
-    color: black;
-    text-align: center;
-    padding: 10px 0;
-    font-family: 'cursive';
-    font-size: 18px;
-}*/
 
 .fixed-column {
     position: fixed;
