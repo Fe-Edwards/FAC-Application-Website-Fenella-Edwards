@@ -82,6 +82,17 @@ footer {
 /* Pong page header and canvas css*/
 .pongbody {
     background: pink;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+}
+
+.pongcanvas {
+    position: static;
+    display: inline-block;
+    align: center;
+    width: 1200px;
+    height: 450px;
 }
 
 .pongheader {
@@ -109,9 +120,4 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     gap: var(--medium-spacing);
-}
-
-.pongcanvas {
-    width: 100%;
-    position: fixed;
 }
