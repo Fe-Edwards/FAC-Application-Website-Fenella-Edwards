@@ -14,24 +14,28 @@ header {
     padding: 30px 30px 30px 800px;
     box-sizing: content-box;
     position: static;
+    
 }
 
 nav {
   
 }
 
-ul {
- 
+ul.header {
+ display: flex;
+ list-style: none;
 }
-li {
+li.header {
     padding: 10px;
+    margin: 20px;
     border: 2px solid;
     border-radius: 5px;
     background-color: #FFFDFA;
-}
-
-li:hover {
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--medium-spacing);
 }
 
 #small-profile-photo {
@@ -58,7 +62,7 @@ li:hover {
 .scrollable-column {
     position: relative; 
     margin: 30px;
-    padding: 30px 30px 30px 800px;
+    padding: 30px 30px 30px 500px;
 }
 
 h1 {
@@ -71,4 +75,9 @@ p {
     color: rgb(0, 0, 0);
     font-size: 16px;
     font-family: 'cursive', serif;
+}
+
+
+li { /*listing contact info and other non-header lists*/
+    padding: 10px;
 }
