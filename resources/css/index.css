@@ -1,3 +1,20 @@
+* {
+    box-sizing: content box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDFA;
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+}
+
+#small-profile-photo {
+    height: 100px;
+    width: 100px;
+}
+
 .banner {
     background-color: rgb(231, 94, 174);
     color: black;
@@ -7,44 +24,16 @@
     font-size: 18px;
 }
 
-.menu {
-    background-color:rgb(231, 94, 174);
-    color: white;
-    text-align: center;
-    padding: 10px 100px;
-    font-family: 'cursive';
-    font-size: 18px;
-}
-
-#small-profile-photo {
-    height: 100px;
-    width: 100px;
-}
-
-nav {
-    width: 40%;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    padding-right: var(--medium-spacing);
-    margin-bottom: var(--medium-spacing);
-}
-body {
-    background-color: #FFFDFA;
-    text-align: center; 
-    font-size: 14px;
-    font-family: 'cursive';
-}
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 18px;
-    font-family: 'cursive';
-    ;
+    font-family: 'cursive', serif;
 }
+
 p {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 16px;
-    font-family: 'cursive';
+    font-family: 'cursive', serif;
 }
