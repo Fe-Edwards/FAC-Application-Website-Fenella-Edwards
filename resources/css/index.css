@@ -42,7 +42,7 @@ li.header {
     gap: var(--medium-spacing);
 }
 
-#small-profile-photo {
+.smallProfilePhoto {
     height: 100px;
     width: 100px;
 }
