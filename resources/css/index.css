@@ -51,6 +51,7 @@ li.header {
     position: fixed;
     padding: 50px 1000px 50px 100px;
     font-family: serif;
+    text-align: justify;
 }
 
 .button {
